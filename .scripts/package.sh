@@ -147,7 +147,7 @@ if [[ $latest != $current || $debug ]]; then
             xcodebuild \
                 -workspace AppCenter.xcworkspace \
                 -scheme "All App Center Frameworks" \
-                -configuration Release clean build BUILD_LIBRARY_FOR_DISTRIBUTION=YES SKIP_INSTALL=NO
+                -configuration Release clean build BUILD_LIBRARY_FOR_DISTRIBUTION=YES SKIP_INSTALL=NO | xcbeautify
 
             echo "Preparing xcframeworks for distribution..."
             zip_frameworks
