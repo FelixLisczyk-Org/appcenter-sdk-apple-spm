@@ -38,22 +38,22 @@ let package = Package(
         .binaryTarget(
             name: "AppCenter",
             url: "https://github.com/ilendemli/appcenter-sdk-apple-spm/releases/download/5.0.4/AppCenter.xcframework.zip",
-            checksum: "c97080f449bc405dde0b785257c499d2f28b1546b68840ea613d10e05bb2664a"
+            checksum: "f32a6ff834ef83eff9aebc8e01018a7536154ebd2d63f1c653333b07423b88bb"
         ),
         .binaryTarget(
             name: "AppCenterAnalytics",
             url: "https://github.com/ilendemli/appcenter-sdk-apple-spm/releases/download/5.0.4/AppCenterAnalytics.xcframework.zip",
-            checksum: "cd8c4d375e215b6aec3b6495d78e7cb289cf35f26001a6952725aca3f8a027e6"
+            checksum: "bd4ec06706d976792020210b93a7634ce0f9d21c7066632b58a0f43e8bc60bf7"
         ),
         .binaryTarget(
             name: "AppCenterCrashes",
             url: "https://github.com/ilendemli/appcenter-sdk-apple-spm/releases/download/5.0.4/AppCenterCrashes.xcframework.zip",
-            checksum: "65c3729a3917e00673cc562c4817a4389ebb20044742f1f145e88ec01ca90d89"
+            checksum: "193cb11a20754f6264daad4e5ef715e56212ed374e56fa1f62bc2618c8aabe00"
         ),
         .binaryTarget(
             name: "AppCenterDistribute",
             url: "https://github.com/ilendemli/appcenter-sdk-apple-spm/releases/download/5.0.4/AppCenterDistribute.xcframework.zip",
-            checksum: "507b64f1e47d4c1ded4ed7360ccb4670cac1eff1cea52df0ab7dc3a62278eeaf"
+            checksum: "88ff184792394c07708a802a168a9d7b12cfaf99d29fa671d8d3d7c2e900b392"
         ),
         .target(
             name: "AppCenterTarget",
